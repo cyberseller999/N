@@ -200,7 +200,7 @@ async def link_handler(bot: Client, m: Message):
                         count+=1
                         pass
 
-                  elif ".pdf" in url:
+                elif ".pdf" in url:
                     try:
                         await asyncio.sleep(4)
         # Replace spaces with %20 in the URL
