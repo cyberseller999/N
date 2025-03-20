@@ -1,0 +1,49 @@
+{
+    "name": "NIKHIL",
+    "description": "Bot For Telegram",
+    "logo": "https://tinypic.host/images/2025/01/10/Purvi-Cid.th.jpeg",
+    "keywords": [
+        "text-video",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/nikhilsainiop/Txt-n",
+    "success_url": "https://t.me/+taZCy5OkoMUwNzI9",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Enter Your Api Id",
+            "value": "28094744",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Enter Your Api Hash",
+            "value": "a75af4285edc7747c57bb19147ca0b9b",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Enter Your Telegram Bot Token",
+            "value": "",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "Enter Your Telegram Bot Name",
+            "value": "@Nklurluploader_bot",
+            "required": true
+        },
+        "MONGO_URI": {
+            "description": "Enter your MongoDB connection string",
+            "value": "",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
