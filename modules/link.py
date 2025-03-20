@@ -31,6 +31,14 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 # YouTube Photo Download
 photo = 'https://i.ibb.co/bgzZW56K/IMG-20250202-062354.jpg'
 
+bot = Client(
+    "bot",
+    api_id=API_ID,
+    api_hash=API_HASH,
+    bot_token=BOT_TOKEN
+)
+
+
 credit ="𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎" 
 # Admin ID
 ADMIN_ID = 5680454765
